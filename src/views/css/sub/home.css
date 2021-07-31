@@ -2,5 +2,13 @@
 
 /* home.pug CSS */
 
+/* banner-wrap */
 .body-container .banner-wrap { position: relative; min-width: 1200px; height: 100vh; width: 100%; white-space: nowrap; overflow: hidden; }
-.body-container .banner-wrap .banner-text { color: #fff; font-size: 45pt;}
+
+.body-container .banner-wrap .banner-text-wrap { width: 1200px; margin: 0 auto; position: absolute; top: 50%; left: 50%; color: #fff; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%);} 
+.body-container .banner-wrap .banner-text-wrap .sub-title { color: #ccc; font-size: 35pt; font-weight: normal; }
+.body-container .banner-wrap .banner-text-wrap .title { color: #fff; font-size: 45pt; font-weight: lighter; }
+
+.body-container .banner-wrap .banner-button { width: 1200px; margin: 0 auto; position: absolute; top: 75%; left: 50%; color: #fff; -webkit-transform: translate(-50%,-50%); -moz-transform: translate(-50%,-50%); -ms-transform: translate(-50%,-50%); -o-transform: translate(-50%,-50%); transform: translate(-50%,-50%); text-align: center; }
+.body-container .banner-wrap .banner-button > a { font-size: 1.75rem; color: #fff; width: 200px; line-height: 50px; border-radius: 100px; border: 1px solid rgba(255,255,255,0.7); background: rgba(255,255,255,0.3); display: block; margin: 35px auto 0; -webkit-transition: background .3s; -moz-transition: background .3s; -ms-transition: background .3s; -o-transition: background .3s; transition: background .3s; }
+.body-container .banner-wrap .banner-button > a:hover { background: rgba(255,255,255,0);}

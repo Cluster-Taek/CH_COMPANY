@@ -25,13 +25,13 @@ a { text-decoration:none; color: #222; }
 
 /* header */
 .header-container { width: 100%; position: fixed; top: 0; left: 0; right: 0; z-index: 300; transition: background-color 0.5s;}
-.header-container.scrolled { background-color: #566270;}
+.header-container.scrolled { background-color: #203f82;}
 .header-container .nav-wrap { position: relative; height: 120px; }
 .header-container .nav-wrap .logo-area { float: left; width: 155px; margin: 40px 0 30px;  text-align: center;}
 .header-container .nav-wrap .logo-area img { width: 155px; height: auto; }
 .header-container .nav-wrap ul.gnb-area { position: relative; width: -webkit-calc(100% - 355px); width: calc(100% - 355px); margin-top: 40px; float: left; text-align: center; }
 .header-container .nav-wrap ul.gnb-area > li { float: left; width: 20%; position: relative; }
-.header-container .nav-wrap ul.gnb-area > li > a { display: inline-block; position: relative; color: #FFFFF3; font-size: 1.7rem; padding: 27.5px 0; word-break: keep-all; font-weight: 500; }
+.header-container .nav-wrap ul.gnb-area > li > a { display: inline-block; position: relative; color: #f5f6f7; font-size: 1.7rem; padding: 27.5px 0; word-break: keep-all; font-weight: 500; }
 .header-container .nav-wrap ul.gnb-area > li > a:after { content: ''; position: absolute; bottom: 30px; left: -10px; width: 0; height: 10px; border-radius: 10px; background: rgba(0,107,214,0.2); -webkit-transition: width .3s; -o-transition: width .3s; transition: width .3s; }
 .header-container .nav-wrap ul.gnb-area > li:hover > a:after { width: -webkit-calc(100% + 20px); width: calc(100% + 20px); }
 .header-container .nav-wrap .login-area { position: absolute; top: 20px; right: 0; }
