@@ -2,29 +2,26 @@ doctype html
 html(lang="en")
     head
         include ./template/script.pug
+        link(rel='stylesheet' href='/views/css/sub/home.css')
     body
         .wrapper
+            .banner-bg
+                .banner-img
+                .banner-mask
             include ./template/header.pug
 
-            main
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-                h3 Welcome to CH
-            footer
-                h3 Bye~
-            button Call
+            .body-container
+                .banner-wrap
+                    .banner-text
+                        p CLEAN AIR
+                    .banner-text.main
+                        p 
+                            <b>청정환경</b>을 <b>선도</b>하는
+                        p 
+                            b CH Co.
+                    .banner-button
+                        button 시공 문의하기
+
             script(src="/public/js/app.js")
         
             include ./template/footer.pug

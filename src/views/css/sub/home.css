@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* home.pug CSS */
+
+.body-container .banner-wrap { position: relative; min-width: 1200px; height: 100vh; width: 100%; white-space: nowrap; overflow: hidden; }
+.body-container .banner-wrap .banner-text { color: #fff; font-size: 45pt;}
