@@ -22,7 +22,7 @@ caption, th {text-align:left;}
 th {font-weight:normal;}
 
 /*이미지와 폼 요소 정렬*/
-img {vertical-align:top;}
+img {vertical-align:top; }
 label, input, select, textarea, button {vertical-align:middle;}
 
 /*텍스트*/
