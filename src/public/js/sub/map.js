@@ -11,6 +11,8 @@ var options = {
 
 var map = new kakao.maps.Map(container, options);
 
+//<div class="title" style="margin-bottom: 220px; margin-left: 6px;"><h2>경기산학융합원</h2></div>
+
 // 마커 표시
 var marker = new kakao.maps.Marker({
     position: CH_LOCATION, // 마커의 좌표

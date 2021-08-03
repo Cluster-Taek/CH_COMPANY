@@ -2,6 +2,11 @@
 
 /* 사이트 서브 페이지 공통 스타일 */
 
+/* body-container */
+.body-container { width: 100%; position: relative; margin-top: 120px; }
+.body-container .info-wrap { min-height: calc(85vh - 120px); }
+
+/* banner-wrap */
 .banner-wrap { position: relative; min-width: 1200px; height: 350px; width: 100%; white-space: nowrap; overflow:hidden; }
 .banner-wrap .banner { position: relative; display: inline-block; width: 100%; transition: transform .5s cubic-bezier(0.61, 0, 0.49, 0.8); margin-right: -2px; white-space: initial; }
 .banner-wrap .banner .banner-bg { width:100%; height:400px; overflow: hidden; z-index: 10; }

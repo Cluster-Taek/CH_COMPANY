@@ -1,13 +1,13 @@
 doctype html
 html(lang="en")
     head
-        include ./template/script.pug
+        include  ../../template/script.pug
         link(rel='stylesheet' href='/views/css/sub/sub-common.css')
-        link(rel='stylesheet' href='/views/css/sub/map.css')
+        link(rel='stylesheet' href='/views/css/sub/intro/map.css')
     body
         .wrapper
             .header-container
-                include ./template/header.pug
+                include ../../template/header.pug
             .banner-wrap
                 .banner
                     .banner-bg
@@ -30,9 +30,9 @@ html(lang="en")
             .body-container
                 .info-wrap
                     div.map#map
-
+    
             script(src="//dapi.kakao.com/v2/maps/sdk.js?appkey=13a2315d7f6462040ec82a095ba0b248")
             script(src="/public/js/sub/map.js") 
             script(src="/public/js/app.js")
 
-            include ./template/footer.pug
+            include ../../template/footer.pug
